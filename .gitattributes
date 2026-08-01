@@ -1,0 +1,3 @@
+# Preserve the exact released worked-example prompt bytes, including a few
+# source-authored line-end spaces that are covered by the manifest hashes.
+isa_bench/prompts/worked_examples/*.md whitespace=-blank-at-eol

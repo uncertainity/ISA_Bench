@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isa-bench"
+version = "0.1.0"
+description = "Executable benchmark harness for five instruction-set puzzle games"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "ISA-Bench authors" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+  "pydantic>=2.0,<3.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=7.4,<9.0",
+]
+
+[project.scripts]
+isa-bench = "isa_bench.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["isa_bench*"]
+
+[tool.setuptools.package-data]
+isa_bench = [
+  "**/*.json",
+  "**/*.md",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,1383 @@
+[
+  {
+    "id": "subleq_instruction_and_output",
+    "title": "Subleq Instruction and Output",
+    "index": 0,
+    "test_cases": [
+      {
+        "input": [
+          3
+        ],
+        "output": [
+          -3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data_directive_and_looping",
+    "title": "Data Directive and Looping",
+    "index": 1,
+    "test_cases": [
+      {
+        "input": [
+          3
+        ],
+        "output": [
+          -3
+        ]
+      },
+      {
+        "input": [
+          4
+        ],
+        "output": [
+          -4
+        ]
+      },
+      {
+        "input": [
+          5
+        ],
+        "output": [
+          -5
+        ]
+      }
+    ]
+  },
+  {
+    "id": "first_assessment",
+    "title": "First Assessment",
+    "index": 2,
+    "test_cases": [
+      {
+        "input": [
+          1
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          2
+        ],
+        "output": [
+          2
+        ]
+      },
+      {
+        "input": [
+          3
+        ],
+        "output": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "addition",
+    "title": "Addition",
+    "index": 3,
+    "test_cases": [
+      {
+        "input": [
+          1,
+          1
+        ],
+        "output": [
+          2
+        ]
+      },
+      {
+        "input": [
+          1,
+          2
+        ],
+        "output": [
+          3
+        ]
+      },
+      {
+        "input": [
+          1,
+          -1
+        ],
+        "output": [
+          0
+        ]
+      },
+      {
+        "input": [
+          11,
+          25
+        ],
+        "output": [
+          36
+        ]
+      },
+      {
+        "input": [
+          82,
+          17
+        ],
+        "output": [
+          99
+        ]
+      }
+    ]
+  },
+  {
+    "id": "subtraction",
+    "title": "Subtraction",
+    "index": 4,
+    "test_cases": [
+      {
+        "input": [
+          1,
+          1
+        ],
+        "output": [
+          0
+        ]
+      },
+      {
+        "input": [
+          1,
+          2
+        ],
+        "output": [
+          -1
+        ]
+      },
+      {
+        "input": [
+          1,
+          -1
+        ],
+        "output": [
+          2
+        ]
+      },
+      {
+        "input": [
+          11,
+          25
+        ],
+        "output": [
+          -14
+        ]
+      },
+      {
+        "input": [
+          82,
+          17
+        ],
+        "output": [
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sign_function",
+    "title": "Sign Function",
+    "index": 5,
+    "test_cases": [
+      {
+        "input": [
+          -1
+        ],
+        "output": [
+          -1
+        ]
+      },
+      {
+        "input": [
+          0
+        ],
+        "output": [
+          0
+        ]
+      },
+      {
+        "input": [
+          1
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          7
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          -29
+        ],
+        "output": [
+          -1
+        ]
+      },
+      {
+        "input": [
+          99
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          -99
+        ],
+        "output": [
+          -1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "multiplication",
+    "title": "Multiplication",
+    "index": 6,
+    "test_cases": [
+      {
+        "input": [
+          1,
+          0
+        ],
+        "output": [
+          0
+        ]
+      },
+      {
+        "input": [
+          0,
+          1
+        ],
+        "output": [
+          0
+        ]
+      },
+      {
+        "input": [
+          1,
+          1
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          2,
+          3
+        ],
+        "output": [
+          6
+        ]
+      },
+      {
+        "input": [
+          7,
+          13
+        ],
+        "output": [
+          91
+        ]
+      }
+    ]
+  },
+  {
+    "id": "division",
+    "title": "Division",
+    "index": 7,
+    "test_cases": [
+      {
+        "input": [
+          1,
+          1
+        ],
+        "output": [
+          1,
+          0
+        ]
+      },
+      {
+        "input": [
+          9,
+          3
+        ],
+        "output": [
+          3,
+          0
+        ]
+      },
+      {
+        "input": [
+          17,
+          2
+        ],
+        "output": [
+          8,
+          1
+        ]
+      },
+      {
+        "input": [
+          67,
+          9
+        ],
+        "output": [
+          7,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sequence_sum",
+    "title": "Sequence Sum",
+    "index": 8,
+    "test_cases": [
+      {
+        "input": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "output": [
+          3
+        ]
+      },
+      {
+        "input": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "output": [
+          6
+        ]
+      },
+      {
+        "input": [
+          3,
+          5,
+          7,
+          11,
+          0
+        ],
+        "output": [
+          26
+        ]
+      },
+      {
+        "input": [
+          53,
+          13,
+          22,
+          9,
+          0
+        ],
+        "output": [
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sequence_cardinality",
+    "title": "Sequence Cardinality",
+    "index": 9,
+    "test_cases": [
+      {
+        "input": [
+          0
+        ],
+        "output": [
+          0
+        ]
+      },
+      {
+        "input": [
+          1,
+          0
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          3,
+          4,
+          0
+        ],
+        "output": [
+          2
+        ]
+      },
+      {
+        "input": [
+          9,
+          2,
+          7,
+          13,
+          26,
+          0
+        ],
+        "output": [
+          5
+        ]
+      }
+    ]
+  },
+  {
+    "id": "number_to_sequence",
+    "title": "Number to Sequence",
+    "index": 10,
+    "test_cases": [
+      {
+        "input": [
+          0
+        ],
+        "output": [
+          0
+        ]
+      },
+      {
+        "input": [
+          1
+        ],
+        "output": [
+          1,
+          0
+        ]
+      },
+      {
+        "input": [
+          2
+        ],
+        "output": [
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "input": [
+          5
+        ],
+        "output": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "input": [
+          3
+        ],
+        "output": [
+          1,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "input": [
+          7
+        ],
+        "output": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "self_modifying_code",
+    "title": "Self-Modifying Code",
+    "index": 11,
+    "test_cases": [
+      {
+        "input": [
+          0
+        ],
+        "output": [
+          12,
+          1,
+          3,
+          -2,
+          12,
+          6,
+          1,
+          13,
+          9,
+          12,
+          12,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stack_memory",
+    "title": "Stack Memory",
+    "index": 12,
+    "test_cases": [
+      {
+        "input": [
+          3,
+          5,
+          7
+        ],
+        "output": [
+          7,
+          5,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reverse_sequence",
+    "title": "Reverse Sequence",
+    "index": 13,
+    "test_cases": [
+      {
+        "input": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "output": [
+          3,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "input": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "output": [
+          1,
+          2,
+          3,
+          0
+        ]
+      },
+      {
+        "input": [
+          3,
+          5,
+          7,
+          11,
+          13,
+          15,
+          17,
+          0
+        ],
+        "output": [
+          17,
+          15,
+          13,
+          11,
+          7,
+          5,
+          3,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "interleave",
+    "title": "Interleave",
+    "index": 14,
+    "test_cases": [
+      {
+        "input": [
+          1,
+          1,
+          1,
+          0,
+          2,
+          2,
+          2,
+          0
+        ],
+        "output": [
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          0
+        ]
+      },
+      {
+        "input": [
+          9,
+          8,
+          7,
+          0,
+          10,
+          20,
+          30,
+          0
+        ],
+        "output": [
+          9,
+          10,
+          8,
+          20,
+          7,
+          30,
+          0
+        ]
+      },
+      {
+        "input": [
+          3,
+          5,
+          7,
+          11,
+          0,
+          13,
+          17,
+          19,
+          23,
+          0
+        ],
+        "output": [
+          3,
+          13,
+          5,
+          17,
+          7,
+          19,
+          11,
+          23,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "indicator_function",
+    "title": "Indicator Function",
+    "index": 15,
+    "test_cases": [
+      {
+        "input": [
+          2,
+          4,
+          6,
+          0,
+          1,
+          2,
+          3,
+          0
+        ],
+        "output": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "input": [
+          3,
+          5,
+          7,
+          0,
+          9,
+          6,
+          3,
+          0
+        ],
+        "output": [
+          0,
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sort",
+    "title": "Sort",
+    "index": 16,
+    "test_cases": [
+      {
+        "input": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "output": [
+          1,
+          2,
+          3,
+          0
+        ]
+      },
+      {
+        "input": [
+          9,
+          9,
+          5,
+          0
+        ],
+        "output": [
+          5,
+          9,
+          9,
+          0
+        ]
+      },
+      {
+        "input": [
+          17,
+          13,
+          19,
+          5,
+          23,
+          7,
+          0
+        ],
+        "output": [
+          5,
+          7,
+          13,
+          17,
+          19,
+          23,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mode",
+    "title": "Mode",
+    "index": 17,
+    "test_cases": [
+      {
+        "input": [
+          1,
+          2,
+          3,
+          3,
+          0
+        ],
+        "output": [
+          3
+        ]
+      },
+      {
+        "input": [
+          1,
+          2,
+          1,
+          2,
+          1,
+          0
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          3,
+          1,
+          2,
+          3,
+          1,
+          2,
+          3,
+          3,
+          1,
+          2,
+          2,
+          2,
+          0
+        ],
+        "output": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "id": "characters",
+    "title": "Characters",
+    "index": 18,
+    "test_cases": [
+      {
+        "input": [
+          0
+        ],
+        "output": [
+          72,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "id": "decimal_digits",
+    "title": "Decimal Digits",
+    "index": 19,
+    "test_cases": [
+      {
+        "input": [
+          49
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          50
+        ],
+        "output": [
+          2
+        ]
+      },
+      {
+        "input": [
+          55
+        ],
+        "output": [
+          7
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uppercase",
+    "title": "Uppercase",
+    "index": 20,
+    "test_cases": [
+      {
+        "input": [
+          85
+        ],
+        "output": [
+          85
+        ]
+      },
+      {
+        "input": [
+          114
+        ],
+        "output": [
+          82
+        ]
+      },
+      {
+        "input": [
+          103
+        ],
+        "output": [
+          71
+        ]
+      },
+      {
+        "input": [
+          101
+        ],
+        "output": [
+          69
+        ]
+      },
+      {
+        "input": [
+          110
+        ],
+        "output": [
+          78
+        ]
+      },
+      {
+        "input": [
+          116
+        ],
+        "output": [
+          84
+        ]
+      },
+      {
+        "input": [
+          33
+        ],
+        "output": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "id": "strings",
+    "title": "Strings",
+    "index": 21,
+    "test_cases": [
+      {
+        "input": [
+          0
+        ],
+        "output": [
+          72,
+          101,
+          108,
+          108,
+          111,
+          44,
+          32,
+          119,
+          111,
+          114,
+          108,
+          100,
+          33,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tokenizer",
+    "title": "Tokenizer",
+    "index": 22,
+    "test_cases": [
+      {
+        "input": [
+          84,
+          104,
+          101,
+          32,
+          113,
+          117,
+          105,
+          99,
+          107,
+          32,
+          98,
+          114,
+          111,
+          119,
+          110,
+          32,
+          102,
+          111,
+          120,
+          32,
+          108,
+          111,
+          118,
+          101,
+          115,
+          32,
+          83,
+          73,
+          67,
+          32,
+          83,
+          121,
+          115,
+          116,
+          101,
+          109,
+          115,
+          0
+        ],
+        "output": [
+          84,
+          104,
+          101,
+          0,
+          113,
+          117,
+          105,
+          99,
+          107,
+          0,
+          98,
+          114,
+          111,
+          119,
+          110,
+          0,
+          102,
+          111,
+          120,
+          0,
+          108,
+          111,
+          118,
+          101,
+          115,
+          0,
+          83,
+          73,
+          67,
+          0,
+          83,
+          121,
+          115,
+          116,
+          101,
+          109,
+          115,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parse_decimal",
+    "title": "Parse Decimal",
+    "index": 23,
+    "test_cases": [
+      {
+        "input": [
+          49,
+          0
+        ],
+        "output": [
+          1
+        ]
+      },
+      {
+        "input": [
+          50,
+          48,
+          0
+        ],
+        "output": [
+          20
+        ]
+      },
+      {
+        "input": [
+          55,
+          52,
+          0
+        ],
+        "output": [
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "id": "print_decimal",
+    "title": "Print Decimal",
+    "index": 24,
+    "test_cases": [
+      {
+        "input": [
+          1
+        ],
+        "output": [
+          49,
+          0
+        ]
+      },
+      {
+        "input": [
+          20
+        ],
+        "output": [
+          50,
+          48,
+          0
+        ]
+      },
+      {
+        "input": [
+          74
+        ],
+        "output": [
+          55,
+          52,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "calculator",
+    "title": "Calculator",
+    "index": 25,
+    "test_cases": [
+      {
+        "input": [
+          49,
+          32,
+          43,
+          32,
+          49,
+          0
+        ],
+        "output": [
+          2
+        ]
+      },
+      {
+        "input": [
+          57,
+          57,
+          32,
+          45,
+          32,
+          49,
+          48,
+          48,
+          0
+        ],
+        "output": [
+          -1
+        ]
+      },
+      {
+        "input": [
+          49,
+          48,
+          32,
+          42,
+          32,
+          52,
+          0
+        ],
+        "output": [
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "id": "multi_line_strings",
+    "title": "Multi-Line Strings",
+    "index": 26,
+    "test_cases": [
+      {
+        "input": [
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          49,
+          92,
+          110,
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          50,
+          92,
+          110,
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          51,
+          92,
+          110,
+          0
+        ],
+        "output": [
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          49,
+          0,
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          50,
+          0,
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          51,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parse_data_directives",
+    "title": "Parse Data Directives",
+    "index": 27,
+    "test_cases": [
+      {
+        "input": [
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          53,
+          92,
+          110,
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          45,
+          55,
+          92,
+          110,
+          46,
+          100,
+          97,
+          116,
+          97,
+          32,
+          49,
+          49,
+          92,
+          110,
+          0
+        ],
+        "output": [
+          5,
+          -7,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parse_subleq_instructions",
+    "title": "Parse Subleq Instructions",
+    "index": 28,
+    "test_cases": [
+      {
+        "input": [
+          115,
+          117,
+          98,
+          108,
+          101,
+          113,
+          32,
+          57,
+          32,
+          50,
+          53,
+          51,
+          32,
+          51,
+          92,
+          110,
+          115,
+          117,
+          98,
+          108,
+          101,
+          113,
+          32,
+          50,
+          53,
+          52,
+          32,
+          57,
+          32,
+          54,
+          92,
+          110,
+          115,
+          117,
+          98,
+          108,
+          101,
+          113,
+          32,
+          57,
+          32,
+          57,
+          32,
+          48,
+          92,
+          110,
+          0
+        ],
+        "output": [
+          9,
+          -3,
+          3,
+          -2,
+          9,
+          6,
+          9,
+          9,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "id": "self_hosting",
+    "title": "Self-Hosting",
+    "index": 29,
+    "test_cases": []
+  },
+  {
+    "id": "self_hosting_part_2",
+    "title": "Self-Hosting Part 2",
+    "index": 30,
+    "test_cases": []
+  }
+]

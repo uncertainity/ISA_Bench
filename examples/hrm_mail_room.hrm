@@ -1,0 +1,4 @@
+loop:
+    INBOX
+    OUTBOX
+    JUMP loop

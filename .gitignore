@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+.venv/
+venv/
+env/
+.env
+*.log
+results/
+
+# Temporarily omitted from the anonymous-review snapshot.
+/LICENSE
+/LICENSES/
+/THIRD_PARTY_NOTICES.md

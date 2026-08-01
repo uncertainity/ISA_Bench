@@ -1,0 +1,74 @@
+{
+  "manifest_version": 1,
+  "benchmark": "ISA Bench",
+  "software_version": "0.1.0",
+  "requires_python": ">=3.10",
+  "default_prompt_track": "spec_only",
+  "canonical_execution_budgets": {
+    "hrm": 100000,
+    "sic1": 100000,
+    "tis100": 100000,
+    "box256": 10000,
+    "mhrd": 100000
+  },
+  "games": {
+    "hrm": {
+      "puzzle_count": 36,
+      "language_frontend": "parser",
+      "execution_engine": "emulator",
+      "oracle": "exact outbox equality",
+      "puzzle_data_sha256": "8592f37b81777113d0985e09685198c496997ac15ccd1b181cf8791da06a858e"
+    },
+    "sic1": {
+      "puzzle_count": 29,
+      "language_frontend": "assembler",
+      "execution_engine": "emulator",
+      "oracle": "exact output-stream equality",
+      "puzzle_data_sha256": "72581a3c0a920ea9e526918e267371c0911260d3bfb6beb2287ebc3c7851db0f",
+      "excluded_non_evaluable_puzzles": [
+        "sic1_self_hosting",
+        "sic1_self_hosting_part_2"
+      ]
+    },
+    "tis100": {
+      "puzzle_count": 7,
+      "language_frontend": "multi-node parser",
+      "execution_engine": "grid emulator",
+      "oracle": "exact equality across all output ports"
+    },
+    "box256": {
+      "puzzle_count": 10,
+      "language_frontend": "parser",
+      "execution_engine": "fixed-budget emulator",
+      "oracle": "exact 256-pixel target equality"
+    },
+    "mhrd": {
+      "puzzle_count": 8,
+      "language_frontend": "HDL parser",
+      "execution_engine": "circuit simulator",
+      "oracle": "exact truth-table output equality"
+    }
+  },
+  "prompt_tracks": {
+    "spec_only": {
+      "worked_solution_examples": false,
+      "sha256": {
+        "hrm": "268854a855157b07318ebd65c1260416fd21917170d5056f23a4775d35c18f9b",
+        "sic1": "5d5a8b634d801e42d10bb7284888a0dbd0de66f1b356dbb1f2192d3885fedeac",
+        "tis100": "3cb11ae97860bbb758322da6948af410d142625676461376ca98e30a54195897",
+        "box256": "9c163671d7d63d1c8fb371531ee6ac7f68098887bcc8fdb0d36b3a03112909dd",
+        "mhrd": "52d35b81febc30a79b776a474eba17a67e294a1f5b2c18d9b01b77576a2adddb"
+      }
+    },
+    "worked_examples": {
+      "worked_solution_examples": true,
+      "sha256": {
+        "hrm": "b9e10e4cd7369a30df51dc05e08cb3feccfe75006c991576e32ac4686daf623b",
+        "sic1": "36ba81c4532e9bf6b51c01e9e915126b69ccb22f616f89fc023745152867cc19",
+        "tis100": "152f939c6ef0c836fe46d81a59d0ca02dae1be5962f9ecec19186fccdd30e9e2",
+        "box256": "a5161fa3b6db496ac96108603217cde8959a1ae4f09c509e74278587d0206c5c",
+        "mhrd": "70e89efd1f79588a4ecff3f85b7a0be50c5baecae1939eaf93589079b35f2a5c"
+      }
+    }
+  }
+}
